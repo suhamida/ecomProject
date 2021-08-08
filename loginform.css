@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+* 
+{
+box-sizing: border-box;
+}
+
+body {
+  background-color: #AED6F1;
+}
+
+#regForm {
+ border-radius: 25px;    
+  border: 25px solid #1F618D;
+  background-color:#D5D8DC;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 50px;
+  width: 50%;
+  min-width: 200px;
+}
+h1 {
+  text-align: center;  
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.icon {
+    padding: 12px;
+    background: powderblue;
+    color: dodgerblue;
+    min-width: 40px;
+    text-align: center;
+}
+
+
+.input-field {
+    width: 90%;
+    padding: 8px;
+    outline: none;
+	border: 1px solid #aaaaaa;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #2311A4  
+;
+    color: white;
+    padding: 8px 10px;
+	padding-right: 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.6;
+}
+	.cancelbtn {
+       width: 25%;
+	   background-color: #7B241C  ;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+	 }
+	 span.psw {
+    float: right;
+	     width: 30%;
+ 
+}
+    
+
+.btn:hover {
+    opacity: 1;
+}
+
+</style>
+</head>
+</html>

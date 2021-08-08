@@ -1,0 +1,78 @@
+h1
+{
+background-color : #5F0927;
+color: white;
+
+ width:110 ;
+ height:110 ; 
+ 
+}
+
+
+.dropbtn {
+    background-color: #5F0927;
+    color:  white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #5F0927;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:  white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #9E0A3D;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:  #9E0A3D;}
+
+
+
+/* Style the header */
+header {
+    background-color: #5F0927;
+    font-size: 20px;
+    color: white;
+}
+.div1
+{
+	float: left;
+    width: 20%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+.div1
+{
+	float: middle;
+    width: 50%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+.div1
+{
+	float: right;
+    width: 20%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+body {
+    /* Set "my-sec-counter" to 0 */
+    counter-reset: my-sec-counter;
+}
+
+h2::before {
+    /* Decrement "my-sec-counter" by 
+	1 */
+    counter-increment: my-sec-counter :1;
+    content: "SL.No " counter(my-sec-counter) ". ";
+}

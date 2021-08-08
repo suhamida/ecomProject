@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="view.css">
+<title>1st viewing page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<h1 ><img src="logo.png"; alt="Smiley face"; align= "middle";> Central Womens University</h1>
+<header>
+  
+	<div class="dropdown">
+  <button class="dropbtn">Home</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+		<div class="dropdown">
+  <button class="dropbtn">About CWU</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+		<div class="dropdown">
+  <button class="dropbtn">Governace</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Academic Calender</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Notic</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Library</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Admition INFO</button>
+  <div class="dropdown-content">
+    <a href="#">about date</a>
+    <a href="#">department</a>
+   
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Message</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown" float ="left">
+  <button class="dropbtn">Sing IN</button>
+  <div class="dropdown-content">
+    <a href="logIn.html"  target="_blank">Have an account</a>
+    <a href="registration.html" target="_blank">Creat an accouny</a>
+   
+  </div>
+</div>
+</header>
+<body>
+<nav>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="1.jpg" style="width:50%  ">
+   <img class="mySlides" src="2.jpg" style="width:50%  ">
+     <img class="mySlides" src="3.jpg" style="width:50%  ">
+	   <img class="mySlides" src="4.jpg" style="width:50%  ">
+	     <img class="mySlides" src="5.jpg" style="width:50% ">
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</nav>
+
+</body>
+</html>
